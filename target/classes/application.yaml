@@ -1,0 +1,15 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+application-description: Catelog Application
+application-version: 0.0.1-SNAPSHOT
+
+server:
+  servlet:
+    context-path: /catalog
+
+
+
+#logging.level.org.springframework: DEBUG
+logging.level.com.shambhu.catalog: DEBUG

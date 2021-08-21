@@ -1,0 +1,15 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+application-description: @project.description@
+application-version: @project.version@
+
+server:
+  servlet:
+    context-path: /catalog
+
+
+
+#logging.level.org.springframework: DEBUG
+logging.level.com.shambhu.catalog: DEBUG
